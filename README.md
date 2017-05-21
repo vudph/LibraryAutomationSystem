@@ -14,6 +14,7 @@ The principle user of the system will be the librarian. The system should automa
 ## Use cases
 ### 1. Case Title:	Check Out Book
 Actors:	Librarian
+
 Description:	
    1. This use case begins when a patron presents a book to the librarian for check out.
    2. First the librarian indicates which patron wishes to check out a book. The system verifies the patron hasn't reached his or her checkout limit. Community patrons may check out a maximum of 5 books at a time and patron scholars may check out 10 at a time. If the patron has reached his or her limit the librarian is notified and the use case ends without the book being checked out.
@@ -21,6 +22,7 @@ Description:
    
 ### 2. Use Case Title:	Return Book
 Actors:	Librarian
+
 Description:	
    1. This use case begins when a book is returned.
    2. The librarian identifies the book to the system for check in.
@@ -29,6 +31,7 @@ Description:
    
 ### 3. Use Case Title:	Renew Book
 Actors:	Librarian
+
 Description:	
    1. This use case begins when a patron presents a book to the librarian for renewal.
    2. The librarian identifies the book to the system for renewal. The system checks to make sure the book hasn't been placed on reserve.
@@ -36,6 +39,7 @@ Description:
    
 ### 4. Use Case Title:	Reserve Book
 Actors:	Librarian
+
 Description:
    1. This use case begins when a patron makes a request to a librarian to reserve a book.
    2. The librarian identifies to the system the book to be placed on reserve. The system prompts the librarian for patron information. The librarian provides the information and the system records this information. When the book placed on reserve is returned, the patron will be notified. (Note, notifying the patron when a reserved book has arrived is part of the Return Book use case.)   
