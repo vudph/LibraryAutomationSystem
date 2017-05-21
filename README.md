@@ -45,4 +45,24 @@ Actors:	Librarian
 
 Description:
    1. This use case begins when a patron makes a request to a librarian to reserve a book.
-   2. The librarian identifies to the system the book to be placed on reserve. The system prompts the librarian for patron information. The librarian provides the information and the system records this information. When the book placed on reserve is returned, the patron will be notified. (Note, notifying the patron when a reserved book has arrived is part of the Return Book use case.)   
+   2. The librarian identifies to the system the book to be placed on reserve. The system prompts the librarian for patron information. The librarian provides the information and the system records this information. When the book placed on reserve is returned, the patron will be notified. (Note, notifying the patron when a reserved book has arrived is part of the Return Book use case.)
+   
+## Analysis
+
+![alt text](https://github.com/vudph/LibraryAutomationSystem/blob/master/resources/analysis-abstractions.gif "analysis-abstractions")
+
+- In the above diagram the class Book represents the generic concept of a book. Associated with Book are author, title, ISBN, etc. The class CopyOfBook represents a specific instance of a book. 
+
+- A patron would renew a CopyOfBook and place on reserve a Book. The class Patron generalizes CommunityPatron and PatronScholar. Behavior and data shared by both types of patrons can be represented once in the class Patron.
+
+## Design
+
+To identify what data and behavior needs to be distributed among design modules. To determine this we can use the noun/verb analysis technique. Rereading the requirements and use cases we can identify the following data items that need to be recorded:
+
+* number of books each patron has checked out
+* which books a patron has checked out
+* maximum number of books a patron is allowed to check out
+* duration patron is allowed to check out a book
+* the status of a book (checked out, checked in, on reserve)
+* title and other identifying information on a book
+* contact information about each patron.
