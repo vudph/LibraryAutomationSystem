@@ -1,4 +1,10 @@
-package com.vdong.models;
+package com.vdong;
+
+import com.vdong.models.Book;
+import com.vdong.models.BookCopy;
+import com.vdong.models.CommunityPatron;
+import com.vdong.models.Patron;
+import com.vdong.models.ScholarPatron;
 
 public class LibraryAutomationSystem {
 

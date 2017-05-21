@@ -88,4 +88,14 @@ Patron attributes for maxBooks and checkoutDuration are calculated values. They 
 
 ## Class Diagram
 
+![alt text](https://github.com/vudph/LibraryAutomationSystem/blob/master/resources/ClassDiagram.png "Class Diagram")
 
+## Sequence Diagram
+
+![alt text](https://github.com/vudph/LibraryAutomationSystem/blob/master/resources/seq-check-out-book.png "seq-check-out-book")
+
+![alt text](https://github.com/vudph/LibraryAutomationSystem/blob/master/resources/seq-renew-book.png "seq-renew-book")
+
+![alt text](https://github.com/vudph/LibraryAutomationSystem/blob/master/resources/seq-reserve-book.png "seq-reserve-book")
+
+![alt text](https://github.com/vudph/LibraryAutomationSystem/blob/master/resources/seq-return-book.png "seq-return-book")
