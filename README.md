@@ -68,4 +68,4 @@ To identify what data and behavior needs to be distributed among design modules.
 
 Distributing that data among the analysis classes identified above:
 
-![alt text](https://github.com/vudph/LibraryAutomationSystem/blob/master/resources/class-diagram-design.gif "class-diagram-design")
+![alt text](https://github.com/vudph/LibraryAutomationSystem/blob/master/resources/class-diagram-design.png "class-diagram-design")
