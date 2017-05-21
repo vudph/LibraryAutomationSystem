@@ -51,9 +51,8 @@ Description:
 
 ![alt text](https://github.com/vudph/LibraryAutomationSystem/blob/master/resources/analysis-abstractions.gif "analysis-abstractions")
 
-- In the above diagram the class Book represents the generic concept of a book. Associated with Book are author, title, ISBN, etc. The class CopyOfBook represents a specific instance of a book. 
-
-- A patron would renew a CopyOfBook and place on reserve a Book. The class Patron generalizes CommunityPatron and PatronScholar. Behavior and data shared by both types of patrons can be represented once in the class Patron.
+* In the above diagram the class Book represents the generic concept of a book. Associated with Book are author, title, ISBN, etc. The class CopyOfBook represents a specific instance of a book. 
+* A patron would renew a CopyOfBook and place on reserve a Book. The class Patron generalizes CommunityPatron and PatronScholar. Behavior and data shared by both types of patrons can be represented once in the class Patron.
 
 ## Design
 
