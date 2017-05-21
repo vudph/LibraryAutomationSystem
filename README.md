@@ -69,3 +69,15 @@ To identify what data and behavior needs to be distributed among design modules.
 Distributing that data among the analysis classes identified above:
 
 ![alt text](https://github.com/vudph/LibraryAutomationSystem/blob/master/resources/class-diagram-design.png "class-diagram-design")
+
+The next step is to assign behaviors. (Note, in practice it may be easier to add attribute and behavior at the same time.) The use case names suggest major procedures or behaviors we will expect from the system:
+* reserve book
+* checkout book
+* return book
+* renew book
+
+Now we add the procedures. Guidelines for deciding where to add a procedure:
+1. Add procedures to the class that has most of the data the procedure needs to operate.
+2. The operation should also make sense for the class where the procedure is added
+
+![alt text](https://github.com/vudph/LibraryAutomationSystem/blob/master/resources/class-diagram-design-with-operations.png "class-diagram-design-with-operations")
