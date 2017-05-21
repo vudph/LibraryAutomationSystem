@@ -81,3 +81,11 @@ Now we add the procedures. Guidelines for deciding where to add a procedure:
 2. The operation should also make sense for the class where the procedure is added
 
 ![alt text](https://github.com/vudph/LibraryAutomationSystem/blob/master/resources/class-diagram-design-with-operations.png "class-diagram-design-with-operations")
+
+Patron attributes for maxBooks and checkoutDuration are calculated values. They depend on the type of patron. This suggests a better way to implement these attributes is via operations and inheritance.
+
+![alt text](https://github.com/vudph/LibraryAutomationSystem/blob/master/resources/patron-inheritance.gif "patron-inheritance")
+
+## Class Diagram
+
+
