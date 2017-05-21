@@ -12,6 +12,9 @@ The library may have more than one copy of the same book. The first use of the t
 The principle user of the system will be the librarian. The system should automate the manual functions performed today which are: check out, return, place a book on reserve, and renew a book. The system should also allow a patron or a librarian to search for a book based on title, author or key words.
 
 ## Use cases
+
+![alt text](https://github.com/vudph/LibraryAutomationSystem/blob/master/resources/use-cases.gif "use-cases")
+
 ### 1. Case Title:	Check Out Book
 Actors:	Librarian
 
