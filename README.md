@@ -1,4 +1,4 @@
-# LibraryAutomationSystem
+# Case Study for OOP - Library Automation
 
 http://sce2.umkc.edu/BIT/burrise/pl/case-studies/old-library/
 
@@ -65,3 +65,7 @@ To identify what data and behavior needs to be distributed among design modules.
 * the status of a book (checked out, checked in, on reserve)
 * title and other identifying information on a book
 * contact information about each patron.
+
+Distributing that data among the analysis classes identified above:
+
+![alt text](https://github.com/vudph/LibraryAutomationSystem/blob/master/resources/class-diagram-design.gif "class-diagram-design")
