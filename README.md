@@ -1,7 +1,5 @@
 # Case Study for OOP - Library Automation
 
-http://sce2.umkc.edu/BIT/burrise/pl/case-studies/old-library/
-
 ## Requirements
 The library system should keep track of books as they are checked out, returned, put on reserve and renewed. It should enforce checkout rules (the "business logic" of the application) based on the borrowing privileges of the person checking out the library book.
 
